@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { NotFoundComponent } from './not-found/not-found.component';
-import { AboutComponent } from './about/about.component';
-import { RandomDogComponent } from './random-dog/random-dog.component';
+import { NotFoundComponent } from './views/not-found/not-found.component';
+import { AboutComponent } from './views/about/about.component';
+import { RandomDogComponent } from './views/random-dog/random-dog.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'about', pathMatch: 'full'},
