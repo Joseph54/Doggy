@@ -11,6 +11,7 @@ import { NotFoundComponent } from './views/not-found/not-found.component';
 import { AboutComponent } from './views/about/about.component';
 import { RandomDogComponent } from './views/random-dog/random-dog.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DogAgePipe } from './controllers/dog-age.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     MainComponent,
     NotFoundComponent,
     AboutComponent,
-    RandomDogComponent
+    RandomDogComponent,
+    DogAgePipe
   ],
   imports: [
     BrowserModule,

@@ -1,2 +1,4 @@
 <h3 *ngIf="dogName">Meet {{dogName}}</h3>
+<p *ngIf="dogName"><i>Age: {{dogName | dogAge: {numIn: 3, unit: ' months'} }}</i></p>
+<h6>{{ now | date: 'hh:mm:ss' }}</h6>
 <img src="{{dogUrl}}" alt="Picture of a dog.">
